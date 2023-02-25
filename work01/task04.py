@@ -13,8 +13,8 @@
 print('Введите число журавликов S')
 s = int(input())
 if s % 2 == 0:
-     b = int((s / 3) * 2)
-     c = int((b / 2) / 2)
+     b = int((s / 2) )
+     c = int((b / 2) )
      print( c, b , c)
      flag = False
 else:
