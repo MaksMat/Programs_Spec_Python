@@ -12,7 +12,7 @@
 
 print('Введите число журавликов S')
 s = int(input())
-if s % 2 == 0:
+if s % 4 == 0:
      b = int((s / 2) )
      c = int((b / 2) )
      print( c, b , c)
